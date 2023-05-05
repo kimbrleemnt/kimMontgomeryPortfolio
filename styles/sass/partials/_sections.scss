@@ -2,13 +2,19 @@
 
 
 .about {
-  height: 30vh;
+  height: 60vh;
   width: auto;
   background-color: $secondary;
 }
 
-.projects {
+.skills {
   height: 80vh;
   width: auto;
-  background-color: rgba(209, 181, 239, 0.964);
+  background-color: $skills;
+}
+
+.projects {
+  height: 120vh;
+  width: auto;
+  background-color: $projects;
 }

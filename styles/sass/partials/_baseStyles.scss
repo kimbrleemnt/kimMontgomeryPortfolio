@@ -1,2 +1,35 @@
 @use "./variables" as *;
 
+.wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+html {
+  text-align: center;
+}
+
+
+h1 {
+  font-family: $playFont;
+  color: $secondary;
+  
+}
+
+h2 {
+  font-family: $playFont;
+  color: $primary;
+}
+
+p {
+  font-family: $baseFont;
+  color: $primary;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
