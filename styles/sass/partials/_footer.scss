@@ -1,7 +1,15 @@
 @use "./variables" as *;
 
-footer {
+.contact {
   height: 50vh;
   width: auto;
   background-color: $footer;
+}
+
+.createdBy {
+
+    height: 10vh;
+    width: auto;
+    background-color: $skills;
+
 }

@@ -226,30 +226,38 @@ html {
   overflow: hidden;
 }
 
-/*$bodyFont: */
-/*$headingFont: "Young Serif";
-$bodyFont: "Jakarta Sans";*/
-/* _variables site colour palette */
 header {
-  height: 80vh;
+  height: 90vh;
   width: auto;
-  background-color: #b3a9a8;
+  background-color: #585B4E;
 }
 
 .about {
-  height: 30vh;
+  height: 60vh;
   width: auto;
-  background-color: #ffffff;
+  background-color: #F2F4F5;
+}
+
+.skills {
+  height: 80vh;
+  width: auto;
+  background-color: #979688;
 }
 
 .projects {
-  height: 80vh;
+  height: 120vh;
   width: auto;
-  background-color: rgba(209, 181, 239, 0.964);
+  background-color: #F2F4F5;
 }
 
-footer {
+.contact {
   height: 50vh;
   width: auto;
-  background-color: #ede2e0;
+  background-color: #BBBCB5;
+}
+
+.createdBy {
+  height: 10vh;
+  width: auto;
+  background-color: #979688;
 }
