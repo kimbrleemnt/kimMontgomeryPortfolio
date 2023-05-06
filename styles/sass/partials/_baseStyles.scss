@@ -1,7 +1,7 @@
 @use "./variables" as *;
 
 .wrapper {
-  width: 90%;
+  width: 80%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -13,7 +13,7 @@ html {
   
 }
 
-h1, h2, p, ul, a {
+h1, h2, h3, h4, p, ul, a {
   margin: 0;
   padding: 0;
 }
@@ -21,6 +21,8 @@ h1, h2, p, ul, a {
 
 h1 {
   font-family: $playFont;
+  font-weight: 700;
+  font-style: italic;
   color: $base;
   font-size: 4.5rem;
 
@@ -29,14 +31,29 @@ h1 {
 
 h2 {
   font-family: $playFont;
+  font-style: italic;
   color: $secondary;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  padding: 3rem 0 .5rem;
+
+}
+
+h3 {
+  font-family: $baseFont;
+  font-weight: 600;
+  font-style: bold;
+}
+
+h4 {
+  font-family: $baseFont;
+  font-size: 18px;
 
 }
 
 p {
   font-family: $baseFont;
   color: $primary;
+  line-height: 1.5;
 
 }
 
