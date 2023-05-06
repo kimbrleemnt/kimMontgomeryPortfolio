@@ -2,19 +2,9 @@
 
 
 .about {
-  height: 60vh;
-  width: auto;
-  background-color: $secondary;
+  background-color: $about;
 }
 
 .skills {
-  height: 80vh;
-  width: auto;
-  background-color: $skills;
-}
-
-.projects {
-  height: 120vh;
-  width: auto;
-  background-color: $projects;
+  background-color: $secondary;
 }
