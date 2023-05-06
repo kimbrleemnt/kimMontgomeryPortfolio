@@ -1,8 +1,45 @@
 @use "./variables" as *;
+@use "./baseStyles" as *;
+
 
 header {
-  height: 90vh;
-  width: auto;
-  background-color: $header;
+  background-color: $secondary;
 }
+
+
+.topBar {
+  padding: 1rem 0 7rem 0;
+}
+
+
+.mainMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+  a {
+      padding: 0px 15px;
+      font-size: 1rem;
+      color: $base;
+  }
+}
+
+
+p {
+  color: $base;
+  padding: .5rem 0 1rem 0;
+}
+
+
+.getInTouch {
+  padding: 1rem 0 8rem 0;
+}
+
+
+.btnContact {
+  color: $primary;
+}
+
+
 
