@@ -1,15 +1,9 @@
 @use "./variables" as *;
 
-.contact {
-  height: 50vh;
-  width: auto;
-  background-color: $footer;
-}
+
 
 .createdBy {
-
-    height: 10vh;
-    width: auto;
-    background-color: $skills;
+  color: $base;
+  background-color: $secondary;
 
 }

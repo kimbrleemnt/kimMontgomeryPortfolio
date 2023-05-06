@@ -226,38 +226,116 @@ html {
   overflow: hidden;
 }
 
+.wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+html {
+  background-color: #F8F1E9;
+  text-align: center;
+  font-size: 20px;
+}
+
+h1, h2, p, ul, a {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: #F8F1E9;
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  color: #877418;
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #251f06;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  background-color: #ECD2D5;
+  font-size: 1rem;
+  padding: 15px 30px;
+  border-radius: 5000px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn .btn:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 header {
-  height: 90vh;
-  width: auto;
-  background-color: #585B4E;
+  background-color: #877418;
+}
+
+.topBar {
+  padding: 1rem 0 7rem 0;
+}
+
+.mainMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+.mainMenu a {
+  padding: 0px 15px;
+  font-size: 1rem;
+  color: #F8F1E9;
+}
+
+p {
+  color: #F8F1E9;
+  padding: 0.5rem 0 1rem 0;
+}
+
+.getInTouch {
+  padding: 1rem 0 8rem 0;
+}
+
+.btnContact {
+  color: #251f06;
 }
 
 .about {
-  height: 60vh;
-  width: auto;
-  background-color: #F2F4F5;
+  background-color: #F3D2BE;
 }
 
 .skills {
-  height: 80vh;
-  width: auto;
-  background-color: #979688;
-}
-
-.projects {
-  height: 120vh;
-  width: auto;
-  background-color: #F2F4F5;
-}
-
-.contact {
-  height: 50vh;
-  width: auto;
-  background-color: #BBBCB5;
+  background-color: #877418;
 }
 
 .createdBy {
-  height: 10vh;
-  width: auto;
-  background-color: #979688;
+  color: #F8F1E9;
+  background-color: #877418;
 }
