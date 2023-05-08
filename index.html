@@ -18,15 +18,17 @@
 <body>
     <header>
       <nav class="topBar">
-            <!--<button class="ham-button" id="ham-button">
-                <i class="fa-solid fa-bars" id="dropDown"></i>
-            </button>-->
+
+            <div id="hamButton" class="hamButton">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
             <ul class="mainMenu" id="mainMenu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 
@@ -44,94 +46,94 @@
     <main>
 
         <section id="about" class="about">
-          <h2>about me</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, ratione eveniet corrupti enim ipsum tempore ipsa qui quaerat fuga deserunt dolorem perspiciatis provident nulla dicta omnis aut mollitia culpa sint omnis aut mollitia culpa sint.</p>
+          <div class="wrapper">
+            <h2>about me</h2>
+            <p>Hello and thank you for reading! I'm Kim and I am a creative and adaptable web developer. Having spent 15+ years in various administrative roles I bring a unique perspective to the field. I have a passion for development and enjoy working on projects that allow me to collaborate creatively with others. A little about my spare time - I love trivia, roller skating and Buffy the Vampire Slayer. </p>
+          </div>    <!--END of wrapper-->  
         </section>
 
         <section id="skills" class="skills">
-          <h2>skills</h2>
-          <ul class="icon">  
-            <li><i class="devicon-html5-plain"></i></li>
-            <li><i class="devicon-css3-plain"></i></li>
-            <li><i class="devicon-sass-original"></i></li>
-            <li><i class="fab fa-js-square"></i></li>
-            <li><i class="fab fa-react"></i></li>
-            <li><i class="devicon-github-original"></i></li>
-            <li><i class="devicon-firebase-plain"></i></li>
-          </ul> <!--ul icon END-->   
+          <div class="wrapper">
+              <h2>skills</h2>
+              <ul class="icon">  
+                <li><i class="devicon-html5-plain"></i></li>
+                <li><i class="devicon-css3-plain"></i></li>
+                <li><i class="devicon-sass-original"></i></li>
+                <li><i class="fab fa-js-square"></i></li>
+                <li><i class="fab fa-react"></i></li>
+                <li><i class="devicon-github-original"></i></li>
+                <li><i class="devicon-firebase-plain"></i></li>
+            </ul>   <!--ul icon END-->  
+          </div>  <!--END of wrapper-->  
         </section>
 
 
 
         <section id="projects" class="projects">
-          <h2>projects</h2>
+          <div class="wrapper">
+            <h2>projects</h2>
+            <div class="projectGallery">
 
-          <ul class="projectGallery">
+                <div class="project projectOne"> 
+                    <img src="./assets/projectNovas.png" alt="thumbnail image of  ecommerce furniture store homepage">
+                    <h3>Juno Project One</h3>
+                    <h4>HTML, CSS, JAVASCRIPT</h4>
+                    <p>Converted a psd design into a multi-page accessible
+                      <br>  and responsive website.</p>
+                    <a href="https://github.com/kimbrleemnt/kimMontgomeryProjectOne.git" class="btn btnCode">View Code</a>
+                    <a href="https://kmprojectone.netlify.app/" class="btn btnLive">View Live</a>
+                </div>
 
-            <li class="project projectOne"> 
+                <div class="project projectTwo"> 
+                    <img src="./assets/projectPronia.png" alt="thumbnail image of ecommerce plant store homepage">
+                    <h3>Juno Project Two</h3>
+                    <h4>HTML, CSS, JAVASCRIPT, FIREBASE</h4>
+                    <p>Demonstrated competence in paired programming and communication. Created and maintained data sources in Firebase. Demonstrated competence with JavaScript, DOM manipulation, error handling and UI design. </p>
+                    <a href="https://github.com/kim-and-wilson/kim-and-wilson-project-two.git" class="btn btnCode">View Code</a>
+                    <a href="https://guileless-froyo-aefb4b.netlify.app/" class="btn btnLive">View Live</a>
+                </div> 
 
-            <img src="./assets/projectNovas.jpeg" alt="thumbnail image of  ecommerce furniture store homepage">
-            <h3>Juno Project One</h3>
-            <h4>HTML, CSS, JAVASCRIPT</h4>
-            <p>To convert a design into a multi-page, functional, responsive website.</p>
-            <a href="https://github.com/kimbrleemnt/kimMontgomeryProjectOne.git" class="btn btnCode">View Code</a>
-            <a href="https://kmprojectone.netlify.app/" class="btn btnLive">View Live</a>
-            </li>
-            <li class="project projectTwo"> 
+                <div class="project projectThree"> 
+                    <img src="./assets/comingSoon.png" alt="">
+                    <h3>Juno Project Three</h3>
+                    <h4>HTML, CSS, JAVASCRIPT, REACT, FIREBASE</h4>
+                    <p>Demonstrated core React concepts to develop a small scale application. Created and maintained data <br> sources in Firebase. Demonstrated competence with error handling and UI design.</p>
+                    <a href="" class="btn btnCode">View Code</a>
+                    <a href="https://sokimcodes.com/" class="btn btnLive">View Live</a>
+                </div>
 
-              <img src="./assets/projectPronia.jpg" alt="thumbnail image of ecommerce plant store homepage">
-              <h3>Juno Project Two</h3>
-              <h4>HTML, CSS, JAVASCRIPT, FIREBASE</h4>
-              <p>Demonstrate competence in pair programming and communication while working with Firebase, creating and maintaing data sources, JavaScript, DOM manipulation, error handling and UI design.</p>
-              <a href="https://github.com/kim-and-wilson/kim-and-wilson-project-two.git" class="btn btnCode">View Code</a>
-              <a href="https://guileless-froyo-aefb4b.netlify.app/" class="btn btnLive">View Live</a>
-              </li>
-              <li class="project projectThree"> 
+                <div class="project projectFour"> 
+                    <img src="./assets/comingSoon.png" alt="">
+                    <h3>Juno Project Four</h3>
+                    <h4>HTML, CSS, JAVASCRIPT, REACT</h4>
+                    <p>Demonstrated core React concepts to develop a large scale application. Coordinated and communicated <br> with a group of developers to deliver a fully functional product on a timeline, while collaborating on GitHub.</p>
+                    <a href="" class="btn btnCode">View Code</a>
+                    <a href="" class="btn btnLive">View Live</a>
+                </div>
 
-                <img src="./assets/coming-soon.jpg" alt="">
-                <h3>Juno Project Three</h3>
-                <h4>HTML, CSS, JAVASCRIPT, REACT, FIREBASE</h4>
-                <p>To show an understanding of core React concepts, working with external or third-party data sources (ie. APIs / Firebase), error handling and UI design.</p>
-                <a href="" class="btn btnCode">View Code</a>
-                <a href="https://sokimcodes.com/" class="btn btnLive">View Live</a>
-                </li>
-
-                <li class="project projectFour"> 
-
-                  <img src="./assets/coming-soon.jpg" alt="">
-                  <h3>Juno Project Four</h3>
-                  <h4>HTML, CSS, JAVASCRIPT, REACT</h4>
-                  <p>Using React concepts to a larger scale application. Project coordinating and communicating with a group of developers, delivering a fully functional product on a timeline, and collaborating on GitHub.</p>
-                  <a href="" class="btn btnCode">View Code</a>
-                  <a href="" class="btn btnLive">View Live</a>
-                  </li>
-
-          </ul>
+            </div>    <!--END of Project Gallery-->  
+          </div>      <!--END of wrapper-->  
 
         </section>
 
         
         <section id="contact" class="contact">
-          <h2>contact</h2>
+          <div class="wrapper">
+            <h2>contact me</h2>
           
             <ul class="social">
-            <li> <i class="devicon-linkedin-plain"></i></li>
-            <li><i class="devicon-github-original"></i></li>
+              <li><a href="https://linkedin.com/in/kimbrleemnt"><i class="devicon-linkedin-plain"></i></a></li>
+              <li><a href="https://github.com/kimbrleemnt"><i class="devicon-github-original"></i></a></li>
             </ul>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sapiente amet nostrum nobis molestias, maxime ipsam perferendis?</p>
+            <p>I bring refreshing and dynamic energy to every project I undertake. Let's work together!!</p>
 
             <div id="email" class="email">
-              <a href="mailto:kim@sokimcodes.com" class="btn btnEmail">Email Kim</a>
+              <a href="mailto:hello@sokimcodes.com" class="btn btnEmail">Email Kim</a>
             </div>
 
-         
-
-
-            
-
+          </div> <!--END of wrapper-->  
         </section>
-
     </main>
 
     <footer>
@@ -140,7 +142,7 @@
       </div>
     </footer>
 
-<script src="./script/script.js"></script>
+<script src="./scripts/script.js" type="module"></script>
 
 </body>
 </html>

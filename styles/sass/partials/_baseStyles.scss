@@ -1,9 +1,10 @@
 @use "./variables" as *;
 
 .wrapper {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
+	max-width: 1260px;
+	width: 70%;
+	margin: 0 auto;
+  
 }
 
 html {
@@ -16,6 +17,7 @@ html {
 h1, h2, h3, h4, p, ul, a {
   margin: 0;
   padding: 0;
+  
 }
 
 
@@ -40,13 +42,13 @@ h2 {
 
 h3 {
   font-family: $baseFont;
-  font-weight: 600;
-  font-style: bold;
+  font-size: 1.2rem;
+
 }
 
 h4 {
   font-family: $baseFont;
-  font-size: 18px;
+  font-size: .6rem;
 
 }
 
@@ -67,18 +69,20 @@ a {
   color: inherit;
 }
 
-// button
+// Buttons
+
 .btn {
   background-color: $accent;
   font-size: 1rem;
   padding: 15px 30px;
   border-radius: 5000px;
   transition: all 0.3s;
+   
   
-  
-  
-    .btn:hover {
-      transform: scale(1.15);
+    .btn:hover:focus {
+      transform: scale(1.5);
+      color: lime; 
+
     }
   }
 

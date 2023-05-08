@@ -15,7 +15,6 @@ header {
   padding: 1rem 0 7rem 0;
 }
 
-
 .mainMenu {
   display: flex;
   justify-content: center;
@@ -26,16 +25,20 @@ header {
       padding: 0px 15px;
       font-size: 1rem;
       color: $base;
+
+      &:hover {
+        border-bottom: 4px rgb(181, 239, 80) solid;
+        // border-radius: 30px;
+
+            &:focus {
+              border-bottom: 4px rgb(181, 239, 80) solid;
+        }
   }
 }
-
-
-
-
-
+}
 
 .getInTouch {
-  padding: 1rem 0 8rem 0;
+  padding: 1rem 0 12rem 0;
 }
 
 
@@ -43,5 +46,19 @@ header {
   color: $primary;
 }
 
+// Hamburger Menu
 
+.hamButton {
+  background-color: transparent;
+  border: 5px;
+  color: $accent;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0;
+  display: none;
+}
 
+.hamButton:hover:focus {
+  outline: none;
+}
