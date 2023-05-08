@@ -1,1 +1,156 @@
 @use "./variables" as *;
+@use "./baseStyles" as *;
+
+
+// --- @media (max-width: 768px)---
+
+  @media (max-width: 768px) {
+
+  //HEADER
+
+    .mainMenu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    
+        
+    .mainMenu.show {
+        position:relative;
+        display: block;
+        justify-content: center;
+        background-color: $accent;
+        border-radius: 50px;
+    }
+  }
+
+  .hamButton {
+    display: block;
+    }
+
+
+
+header h1 {
+      font-size: 3rem;
+    }
+  
+
+}
+
+
+
+
+// ---@media (max-width: 538px)---
+
+@media (max-width: 538px) {
+
+  .main-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    }    
+
+        .main-menu.show {
+            display: flex;
+            }
+
+
+
+      //SECTIONS
+
+      //Skills
+
+      .icon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+      
+        i {
+          // display: block;
+          padding: 0 8px 8px;
+        }
+      }
+
+
+// Projects
+
+.projects {
+  display: flex;
+
+}
+
+.project {
+
+  transform: scale(0.8);
+}
+
+
+.project btn {
+  display: block;
+}
+
+.projectOne img {
+  top: -35px;
+}
+
+.projectTwo img {
+  top: -20px;
+}
+
+.projectThree img {
+  top: -25px;
+
+}
+
+
+.projectFour img {
+  top: -25px;
+}
+}
+
+// ---@media (max-width: 390px)---
+
+@media (max-width: 390px) {
+
+
+
+      //Skills
+
+      .icon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .icon i {
+
+          padding: 0 4px 4px;
+      }
+
+      // Projects
+
+      .project {
+        display: flex;
+        flex-direction: column;
+
+
+
+
+        .btn {
+          position: relative;
+          transform: scale(0.6);
+          bottom: -520px;
+
+        }
+
+        .btnCode {
+          left: 10px;
+        }
+
+        .btnLive {
+          left: 10px;
+        }
+
+
+    }
+  }
