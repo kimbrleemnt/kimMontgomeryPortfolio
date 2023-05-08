@@ -18,7 +18,6 @@ header {
 .mainMenu {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 0;
 
   a {
@@ -32,9 +31,9 @@ header {
 
             &:focus {
               border-bottom: 4px rgb(181, 239, 80) solid;
-        }
+      }
+    }
   }
-}
 }
 
 .getInTouch {
