@@ -1,3 +1,5 @@
+//Hamburger Dropdown Menu
+
 const button = document.getElementById("hamButton");
 const nav = document.getElementById("mainMenu");
 
