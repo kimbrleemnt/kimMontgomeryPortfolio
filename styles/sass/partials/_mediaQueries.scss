@@ -22,9 +22,12 @@ header h1 {
     flex-direction: column;
     width: 100%;
     background-color: $accent;
+    line-height: 2rem;
 
     a {
       color: $secondary;
+      letter-spacing: 3px;
+      
     }
   }
   

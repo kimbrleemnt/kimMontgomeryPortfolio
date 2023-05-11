@@ -544,9 +544,11 @@ p {
             flex-direction: column;
     width: 100%;
     background-color: #ECD2D5;
+    line-height: 2rem;
   }
   .mainMenu a {
     color: #877418;
+    letter-spacing: 3px;
   }
   .mainMenu.show {
     position: relative;
